@@ -1,8 +1,64 @@
 body {
 font-family: 'Spartan', sans-serif;
-margin: 0;
-
+background-color: hsl(0, 0%, 100%);
+font-size: 15px;
 }
-.first-raiting {
-  text-indent: ;
+h1 {
+  font-size: 44px;
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+  padding-right: 200px;
+}
+
+/* Top Container */
+.top-text{
+  padding-right: 100px;
+  color: hsl(303, 10%, 53%);
+}
+
+.top-container {
+  position: relative;
+  margin: 100px;
+  padding: 0px 20px;
+}
+
+.icon-star {
+  margin: 0px 5px;
+  float:left;
+}
+.rating-text {
+  font-family: "Spartan", sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  color: hsl(300, 43%, 22%);
+  display: inline-block;
+}
+.rating-conts {
+  position: relative;
+  border-radius: 10px;
+  background-color: hsl(300, 24%, 96%);
+  padding: 20px 30px;
+  height: 60px;
+  margin-bottom: 20px;
+  margin-right: 40px;
+}
+.first-rating {
+  position: relative;
+  right: 80px;
+}
+.second-rating {
+  position: relative;
+  right: 40px;
+}
+.third-rating {
+  position: relative;
+  right: 0px;
+}
+
+
+/* Bottom Container */
+
+.bottom-container {
+  position: relative;
+  margin: 0 100px 100px 100px;
 }
