@@ -9,25 +9,9 @@ h1 {
   font-size: 44px;
   color: hsl(300, 43%, 22%);
   font-weight: bold;
-  /* padding-right: 200px; */
 }
 
-.bg-top {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-}
-
-.bg-bottom {
-  width: 95%;
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  z-index: -1
-}
-
-/* Top Container */
+/********** Top Container **********/
 .first-box {
   padding-right: 200px;
 }
@@ -75,7 +59,7 @@ h1 {
   right: 0px;
 }
 
-/* Bottom Container */
+/********** Bottom Container **********/
 .profile {
   display: inline-block;
 }
@@ -111,18 +95,11 @@ h1 {
 
 .bottom-container {
   margin: 0px 120px 150px 100px;
-  display: inline-block;
-}
-
-.ui-card {
-  position: relative;
-  display: inline-block;
 }
 
 .testimonials {
   background-color: hsl(300, 43%, 22%);
   padding: 40px 25px;
-  margin: 0% 2% 0% 0%;
   border-radius: 10px;
   width: 100%
 }
@@ -135,17 +112,16 @@ h1 {
   top: 100px;
 }
 
-/* Footer Section */
+/********** Footer Section **********/
 .footer {
   text-align: center;
   margin: 10px;
 }
 
-/* Mobile responsive */
+/********** Mobile responsive **********/
 @media only screen and (max-width: 993px) {
   body {
     background: url("../images/bg-pattern-top-mobile.svg")left top no-repeat, url("../images/bg-pattern-bottom-mobile.svg") right bottom no-repeat;
-
     text-align: center;
   }
 
@@ -153,12 +129,13 @@ h1 {
     font-size: 34px;
     margin-bottom: 15px;
   }
+
   .container-fluid {
     padding: 0px;
   }
 
   .top-container {
-    margin: 0px 20px;
+    margin: 0px 15px;
     padding: 70px 20px 10px 20px;
   }
 
@@ -175,8 +152,6 @@ h1 {
   }
 
   .rating-conts {
-    display: block;
-    position: static;
     text-align: center;
     width: 100%;
     margin: 20px 0px;
@@ -204,19 +179,6 @@ h1 {
   }
 
   .footer {
-    margin: 100px 50px 10px 50px;
+    margin: 150px 50px 20px 50px;
   }
-
-  .bg-top {
-    /* width: 2%; */
-  }
-
-  .bg-bottom {
-    /* width: 2%; */
-  }
-
-
-
-
-
 }
